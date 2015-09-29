@@ -465,12 +465,4 @@
         </outbound-socket-binding>
     </socket-binding-group>
 
-    <deployments>
-        <deployment name="wildfly-servlet-security.war" runtime-name="wildfly-servlet-security.war">
-            <content sha1="2a7c14297533b1096f99fc3d960ec6b2264a81e9"/>
-        </deployment>
-        <deployment name="logoutwar.war" runtime-name="logoutwar.war">
-            <content sha1="e6e73d0565dc66e7688b0ef60248d510c9c0f753"/>
-        </deployment>
-    </deployments>
 </server>
